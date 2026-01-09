@@ -18,7 +18,9 @@
             <li><a href="#Contact">Contact</a></li>
         </ul>
     </nav>
-    </header
+</header>
+<p>Visit my Portfolio:
+      <a href="https://laibaa19.github.io/Portfolio/" target="_blank">Portfolio Link</a>
 
     <main>
     <section id="Home">
@@ -80,9 +82,22 @@
             <h3>Personal Profile Website</h3>
             <p>This is a simple personal profile website built using HTML to showcase my skills and projects.</p>
         <p>Here are some of my recent projects.</p>
-    </section>
     </article>
-    
+
+    <article="Project">
+        <h3>Project 1: Portfolio Website</h3>
+        <p>A portfolio website to display my work and skills.</p>
+      </article>
+        <article="Project">
+            <h3>Project 2: Blog Website</h3>
+            <p>A blog website where I share my thoughts and experiences.</p>
+        </article>
+        <article="Project">
+            <h3>Project 3:sample Website</h3>
+            <p>HTML form practice project.</p>
+        </article>
+        </section>
+
     <section id="Media">
         <h2>Media</h2>
         <video width="320" height="240" controls>
@@ -93,11 +108,36 @@
             <source src="sample-audio.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
+    </section>
 
     <section id="Contact">
-        <h2>Contact</h2>
-        <p>You can reach me at
+        <h2>Contact me</h2>
+        <p>You can reach me at:</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Labiba Tasnim" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder=labibatasnim84@gmail.com"" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Feel free to contact me for any project,suggestion,or collaboration.I will try my best to reply as soon as possible."></textarea><br>
+            <p>Gender:</p>
+            <label><input type="radio" name="gender" value="female">Female</label><br>
+            <label><input type="radio" name="gender" value="male">Male</label><br>
+
+            <p>Skills:</p>
+            <label><input type="checkbox" name="skill" value="html">HTML</label><br>
+            <label><input type="checkbox" name="skill" value="css">CSS</label><br>
+            <label><input type="checkbox" name="skill" value="javascript">JavaScript</label><br>
             </p>
+
+            <button type="submit" >Submit</button>
+        </form>
+            </section>
+
+            <footer>
+                <p>&copy; 2026 My Personal Portfolio</p>
+            </footer>
+
     
 </body>
 </html>
