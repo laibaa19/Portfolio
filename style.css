@@ -31,12 +31,12 @@ nav ul li a:hover {
 }
 .btn-contact{
     padding: 8px 15px;
-    background-color: teal;
+    background-color: rgb(174, 166, 166);
     border-radius: 5px;
 }
 
 .btn-contact:hover{
-    background-color: #0f766e;
+    background-color: #b1b8b8;
 }
 main {
     padding: 20px;
