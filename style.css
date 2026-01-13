@@ -26,6 +26,11 @@ header {
     font-weight: bold;
     color: white;
 }
+.subtitle {
+    font-size: 16px;
+    color: #ccc;
+    margin-top: 5px;
+}
 nav ul {
     list-style: none;
     display: flex;
@@ -51,6 +56,23 @@ nav ul li a:hover {
 .btn-contact:hover{
     background-color: #b1b8b8;
 }
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.portfolio-btn{
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: teal;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+.portfolio-btn:hover{
+    background-color: #0f766e;
+}
 main {
     padding: 20px;
 }
@@ -68,7 +90,6 @@ h2 {
     object-fit: cover;
     display: block;
     margin-top: 15px;
-    border-radius: 5px solid teal;
 }
 
 #project{
