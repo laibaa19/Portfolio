@@ -71,7 +71,7 @@ nav ul li a:hover {
     border-radius: 25px;
 }
 .portfolio-btn:hover{
-    background-color: #0f766e;
+    background-color: teal;
 }
 main {
     padding: 20px;
@@ -136,7 +136,7 @@ button {
     border-radius: 4px;
 }
 button:hover {
-    background: #0f766e;
+    background: teal;
 }
 
 footer {
